@@ -1,0 +1,7 @@
+- type: brew
+  nofile-limits: true
+  brew-analytics: false
+  auto-update: true
+  update-interval: 1d
+  auto-upgrade: true
+  upgrade-interval: 1d

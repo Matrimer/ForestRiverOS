@@ -1,0 +1,41 @@
+- type: dnf
+  repos:
+    nonfree: rpmfusion
+
+  install:
+    packages:
+
+      # nonfree codecs
+      - libavcodec-freeworld
+
+      # Essential applications
+      - helix
+      - foot
+      - foot-terminfo
+      - curl
+
+      # Browsers
+
+
+      # Gaming essentials:
+      - gamescope
+      - mangohud
+      - gamemode
+
+      # System
+      - powertop
+
+      - greetd
+      - greetd-selinux
+      - tuigreet
+
+      - xfce-polkit
+      - ublue-polkit-rules
+      - pam
+      - gnome-keyring
+      - linux-firmware
+      - intel-ucode
+      - amd-ucode
+
+      
+
