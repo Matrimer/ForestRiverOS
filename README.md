@@ -1,3 +1,5 @@
+# Work in progress, hobby project
+
 # ForestRiverOS &nbsp; [![bluebuild build badge](https://github.com/matrimer/forestriveros/actions/workflows/build.yml/badge.svg)](https://github.com/matrimer/forestriveros/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
