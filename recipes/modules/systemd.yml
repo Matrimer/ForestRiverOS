@@ -3,3 +3,15 @@ modules:
     system:
       enabled:
         - greetd.service
+        - NetworkManager.service
+        - pipewire.service
+        - pipewire-pulse.service
+        - wireplumber.service
+        - firewalld.service
+        - bluetooth.service
+        - upower.service
+        - tuned.service
+        - tuned-ppd.service
+        # - nvidia-powerd.service
+        # - setcaps.service
+        
