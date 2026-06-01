@@ -1,0 +1,115 @@
+modules:
+  - type: dnf
+    repos:
+      nonfree: rpmfusion
+
+    group-install:
+      packages:
+        - standard
+        - base-graphical
+        - hardware-support
+
+    install:
+      packages:
+
+        # NVIDIA
+        # - akmod-nvidia
+        # - xorg-x11-drv-nvidia-cuda
+        # - ublue-os-nvidia-addons
+        # - nvidia-settings
+        # - nvidia-gpu-firmware
+        # - xorg-x11-drv-nvidia-power
+        # - nvidia-modprobe
+        # - nvidia-persistenced
+        # - libva-nvidia-driver
+
+        - curl
+        - just
+
+        - pipewire
+        - pipewire-module-x11
+        - pipewire-plugin-vulkan
+        - pipewire-pulseaudio
+        - pipewire-alsa
+        - pipewire-utils
+        - wireplumber
+        - alsa-firmware
+
+        # # Firewall
+        - nftables
+        - firewalld
+        - openssl
+        # # Printing
+        - cups
+
+        - iwd
+        - NetworkManager
+        - NetworkManager-wifi
+        - NetworkManager-openvpn
+        - NetworkManager-openconnect
+        - NetworkManager-openvpn-gnome
+        - NetworkManager-openconnect-gnome
+        - bluez
+        - bluez-tools
+
+        - tuned
+        - tuned-ppd
+        - upower
+      
+        - greetd
+        - greetd-selinux
+
+        - qt5-qtwayland
+        - qt6-qtwayland
+        - xorg-x11-server-Xwayland
+
+        - polkit
+        - xfce-polkit
+        # - ublue-polkit-rules
+        - pam
+        - fprintd-pam
+        - gnome-keyring
+
+        - android-tools
+        - gvfs-mtp
+        - gvfs-gphoto2
+        - gvfs-smb
+        - gvfs-nfs
+        - gvfs-fuse
+        - gvfs-archive
+
+
+        - linux-firmware
+
+        # - intel-ucode
+        - amd-ucode-firmware
+        - intel-gpu-firmware
+        - amd-gpu-firmware
+        - linux-firmware
+        - microcode_ctl
+        - vulkan-validation-layers
+        - vulkan-tools
+
+
+        - dbus-tools
+        - dbus-daemon
+
+
+      
+  # GROUPS
+  # container-management
+  # C-development *
+  # electronic-lab *
+  # engineering-and-scientific *
+  #
+  # HIDDEN:
+  # core *
+  # java
+  # java-development
+  # autoring-and-publishing
+  # multimedia *
+  # fonts
+  # security-lab
+  # printing *
+  # workstation-product *
+  # networkmanager-submodules * (WPA_Supplicant)

@@ -4,9 +4,6 @@ modules:
       enabled:
         - greetd.service
         - NetworkManager.service
-        - pipewire.service
-        - pipewire-pulse.service
-        - wireplumber.service
         - firewalld.service
         - bluetooth.service
         - upower.service

@@ -1,0 +1,12 @@
+  modules:
+    - type: akmods
+      base: main
+      nvidia-driver: nvidia-open
+      install:
+        - xone
+        - xpadneo
+        - evdi
+        - nvidia
+        # - zenergy
+        
+        

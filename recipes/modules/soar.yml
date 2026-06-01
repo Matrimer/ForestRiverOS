@@ -1,4 +1,0 @@
-- type: soar
-  additional-repos: false
-  auto-upgrade: true
-  upgrade-interval: '1d'

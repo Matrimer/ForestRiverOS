@@ -1,7 +1,0 @@
-type: kargs
-arch: x86_64 # only inject kernel arguments to these specific OS architectures
-kargs:
-  - console=tty1
-  - mitigations=off
-  # - systemd.unified_cgroup_hierarchy=0
-

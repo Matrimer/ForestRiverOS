@@ -1,0 +1,12 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+
+        install:
+          - org.mozilla.firefox
+          - io.github.kolunmi.Bazaar
+
+      - scope: user # Add flathub user repo
+      

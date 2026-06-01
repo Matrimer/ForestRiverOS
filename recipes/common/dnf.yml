@@ -1,0 +1,150 @@
+modules:
+  - type: dnf
+    repos:
+      nonfree: rpmfusion
+      copr:
+        - avengemedia/dms
+        - ublue-os/packages
+
+    install:
+      packages:
+        # - rpmfusion-free-release
+        # - rpmfusion-nonfree-release
+       
+        - blueman
+        - uupd # Ublue update util
+
+        # nonfree codecs
+        # - libavcodec-freeworld
+
+        # Essential applications
+        - helix
+        - foot
+        - foot-terminfo
+
+        - newsboat
+      
+
+        - imv
+        - zathura
+        - zathura-cb
+        - zathura-djvu
+        - zathura-pdf-mupdf
+        - zathura-ps
+        - mpv
+        - mpv-mpris
+        # - vdr-mpv # TV streaming, installation fails
+        # - haruna # MPV QT front-end
+        # - celluloid # MPV GTK front-end
+
+        # Browsers
+
+        # Software management:
+        # - bazaar # Not in repo, use flatpak
+
+        # Gaming essentials:
+        - gamescope
+        - mangohud
+        - gamemode
+        - steam-devices
+        # - headsetcontrol
+        - oversteer
+
+
+        # System
+        - powertop
+        - powerstat
+        - distrobox
+        - xdg-utils
+        - xdg-user-dirs
+        - google-noto-emoji-fonts
+        - ddcutil # monitor settings
+
+        # Ublue OS
+        - ublue-os-udev-rules
+        # - ublue-os-update-services
+        - ublue-os-signing
+        - ublue-os-luks
+        - ublue-os-just
+
+        
+        # Interfaces for system components
+        - NetworkManager-tui
+        - network-manager-applet
+        - manafirewall
+        - firewall-config
+        # - firewall-applet
+
+        # Utilities
+        - p7zip
+        - fzf
+        - vim
+        - dunst
+        - wiremix # TUI pipewire mixer
+        - playerctl # Systemwide play/pause
+        # Shell
+        - mksh
+        - oksh
+        - yash
+
+        # SENT AND SURF
+
+        ###### WM ######
+        - river
+        - niri
+        # - hyprland
+        - xdg-desktop-portal-wlr
+        # -xdg-desktop-portal-hyprland
+        ### WM-related utils:
+        # Niri:
+        - dms # niri shell
+        - fuzzel # app-launcher
+        - mako # notifications
+        - waybar
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - alacritty
+        - swaybg # background image
+        - swayidle
+        - swaylock
+        - xwayland-satellite
+        - udiskie # manage and automount USB drives
+        # dms-shell-niri, noctalia-shell, niri-settings
+        # DE Utilities
+        - tuigreet
+        - rofi-wayland
+        - slurp
+        - grim
+        - wl-clipboard
+        - wlr-randr
+        - wlsunset
+        # - redshift
+        - brightnessctl
+        - kanshi
+
+      
+
+      
+  # GROUPS
+  # container-management
+  # C-development
+  # electronic-lab
+  # engineering-and-scientific
+  #
+  # HIDDEN:
+  # core *
+  # java
+  # java-development
+  # basic-desktop
+  # base-graphical
+  # autoring-and-publishing
+  # multimedia *
+  # fonts
+  # hardware-support
+  # standard
+  # smb-server
+  # security-lab
+  # printing *
+  # system-tools
+  # workstation-product
+  # networkmanager-submodules
