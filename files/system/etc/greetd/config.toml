@@ -1,7 +1,7 @@
 [default_session]
-command = "tuigreet --remember --remember-user-session --time \
---greeting 'Welcome' --cmd niri-session -l"
-#--power-shutdown 'sudo systemctl poweroff' --power-reboot 'sudo systemctl reboot' \
+# command = "tuigreet --cmd 'niri-session'"
+command = "dms-greeter --command niri"
+user = "greeter"
 
 [terminal]
-vt = 2
+vt = 7

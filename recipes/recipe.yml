@@ -21,17 +21,17 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-  - from-file: common/remove-unnecessary.yml
-  - from-file: common/nvidia-open.yml
-  - from-file: common/kargs.yml
-  - from-file: common/system-packages.yml
+  - from-file: modules/remove-unnecessary.yml
+  - from-file: modules/nvidia-open.yml
+  - from-file: modules/kargs.yml
+  - from-file: modules/system-packages.yml
   
-  - from-file: common/dnf.yml
-  - from-file: common/flatpak.yml
-#  - from-file: common/brew.yml
-  - from-file: common/soar.yml
+  - from-file: modules/dnf.yml
+  - from-file: modules/flatpak.yml
+#  - from-file: modules/brew.yml
+  - from-file: modules/soar.yml
 
-  - from-file: common/systemd.yml
+  - from-file: modules/systemd.yml
 
 
   - type: script

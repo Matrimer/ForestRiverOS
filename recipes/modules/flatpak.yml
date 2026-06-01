@@ -1,0 +1,18 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+
+        install:
+          - org.mozilla.firefox
+          # - io.github.kolunmi.Bazaar
+          - com.github.tchx84.Flatseal
+          - io.freetubeapp.FreeTube
+          # - io.sourceforge.pysolfc.PySolFC
+          # - de.schmidhuberj.tubefeeder # pipeline yt-client
+          # - org.openttd.OpenTTD
+          # - io.mpv.Mpv
+
+      - scope: user # Add flathub user repo
+      

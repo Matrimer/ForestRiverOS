@@ -10,6 +10,8 @@ modules:
       packages:
         # - rpmfusion-free-release
         # - rpmfusion-nonfree-release
+        # Software management:
+        - bazaar # ublue repo
        
         - blueman
         - uupd # Ublue update util
@@ -39,8 +41,6 @@ modules:
 
         # Browsers
 
-        # Software management:
-        # - bazaar # Not in repo, use flatpak
 
         # Gaming essentials:
         - gamescope
@@ -98,6 +98,8 @@ modules:
         ### WM-related utils:
         # Niri:
         - dms # niri shell
+        - dms-cli
+        - dms-greeter
         - fuzzel # app-launcher
         - mako # notifications
         - waybar
