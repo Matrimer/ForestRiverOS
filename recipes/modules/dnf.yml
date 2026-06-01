@@ -66,6 +66,7 @@ modules:
         - ublue-os-signing
         - ublue-os-luks
         - ublue-os-just
+        - ublue-recipes
 
         
         # Interfaces for system components
