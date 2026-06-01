@@ -2,6 +2,8 @@ modules:
   - type: dnf
     remove:
       packages:
+        # fix akmods
+        - mesa-vulkan-drivers
         - sddm
         - sddm-wayland-sway
         - firefox # Use Flatpak version

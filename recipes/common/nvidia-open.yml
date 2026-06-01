@@ -5,8 +5,8 @@
       install:
         - xone
         - xpadneo
-        - evdi
-        - nvidia
+        # - evdi # fails
+        # - nvidia # fails
         # - zenergy
         
         

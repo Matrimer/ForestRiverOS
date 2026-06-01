@@ -6,8 +6,8 @@ modules:
     group-install:
       packages:
         - standard
-        - base-graphical
-        - hardware-support
+        # - base-graphical
+        # - hardware-support
 
     install:
       packages:

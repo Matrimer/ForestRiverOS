@@ -4,4 +4,4 @@ command = "tuigreet --remember --remember-user-session --time \
 #--power-shutdown 'sudo systemctl poweroff' --power-reboot 'sudo systemctl reboot' \
 
 [terminal]
-vt = 7
+vt = 2
