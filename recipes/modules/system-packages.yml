@@ -5,7 +5,7 @@ modules:
 
     group-install:
       packages:
-        - standard
+        - standard # Necessary?
         # - base-graphical
         # - hardware-support
 
@@ -59,6 +59,7 @@ modules:
         - greetd
         - greetd-selinux
 
+        # Are the QT5 packages necessary?
         - qt5-qtwayland
         - qt6-qtwayland
         - xorg-x11-server-Xwayland

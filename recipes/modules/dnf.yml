@@ -8,18 +8,27 @@ modules:
 
     install:
       packages:
+
+        # HEAVY GUI:
+        # bazaar
+        # blueman
+        # 
+        #
+        #
+        # 
         # - rpmfusion-free-release
         # - rpmfusion-nonfree-release
         # Software management:
-        - bazaar # ublue repo
+        - bazaar # ublue repo. Flatpak available
        
         - blueman
+
         - uupd # Ublue update util
 
         # nonfree codecs
         # - libavcodec-freeworld
 
-        # Essential applications
+        # Essential applications. Flatpak available
         - helix
         - foot
         - foot-terminfo
@@ -27,13 +36,13 @@ modules:
         - newsboat
       
 
-        - imv
-        - zathura
+        - imv # many deps?
+        - zathura # flatpak - libgtk3
         - zathura-cb
         - zathura-djvu
         - zathura-pdf-mupdf
         - zathura-ps
-        - mpv
+        - mpv # flatpak
         - mpv-mpris
         # - vdr-mpv # TV streaming, installation fails
         # - haruna # MPV QT front-end
@@ -71,9 +80,9 @@ modules:
         
         # Interfaces for system components
         - NetworkManager-tui
-        - network-manager-applet
-        - manafirewall
-        - firewall-config
+        - network-manager-applet # libgtk-3 nm-connection-editor
+        # - manafirewall # Not working
+        - firewall-config # GTK3 Py3
         # - firewall-applet
 
         # Utilities
@@ -101,9 +110,9 @@ modules:
         - dms # niri shell
         - dms-cli
         - dms-greeter
-        - fuzzel # app-launcher
+        # - fuzzel # app-launcher, don't like it
         - mako # notifications
-        - waybar
+        # - waybar
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - alacritty
