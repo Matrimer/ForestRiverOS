@@ -28,7 +28,7 @@ modules:
   
   - from-file: modules/dnf.yml
   - from-file: modules/flatpak.yml
-#  - from-file: modules/brew.yml
+  - from-file: modules/brew.yml
   - from-file: modules/soar.yml
 
   - from-file: modules/systemd.yml

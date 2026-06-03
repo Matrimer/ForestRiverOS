@@ -1,0 +1,3 @@
+usermod -s SHELL LOGIN
+
+/etc/shells

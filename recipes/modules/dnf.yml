@@ -11,42 +11,73 @@ modules:
 
         # HEAVY GUI:
         # bazaar
-        # blueman
+        # 
         # 
         #
         #
-        # 
+        # Installed by default
         # - rpmfusion-free-release
         # - rpmfusion-nonfree-release
+        # 
+        # - libavcodec-freeworld ?
+         
         # Software management:
         - bazaar # ublue repo. Flatpak available
        
-        - blueman
+        # - blueman
 
         - uupd # Ublue update util
 
-        # nonfree codecs
-        # - libavcodec-freeworld
 
         # Essential applications. Flatpak available
         - helix
         - foot
         - foot-terminfo
 
+
+        ### Varias TUI applications
+        # System monitors
+        - htop
+        - btop
+
+        # System tools
+        - ncdu
+        - thefuck
+        - cheat
+        - cheat-community
+        - navi #cheatsheets
+        
+
+        # File managers
+        - nnn
+        - ranger
+        - mc
+        - vifm
+        - zoxide
+
+        # email
+        - alpine
+        - abook
+
         - newsboat
+
+        - mpd
+        - mpc
+        - ncmpcpp
+        - libmpdclient
       
 
         - imv # many deps?
-        - zathura # flatpak - libgtk3
-        - zathura-cb
-        - zathura-djvu
-        - zathura-pdf-mupdf
-        - zathura-ps
-        - mpv # flatpak
-        - mpv-mpris
+
+        # Get these from Flatpak
+        # - zathura
+        # - zathura-cb
+        # - zathura-djvu
+        # - zathura-pdf-mupdf
+        # - zathura-ps
+        # - mpv
+        # - mpv-mpris
         # - vdr-mpv # TV streaming, installation fails
-        # - haruna # MPV QT front-end
-        # - celluloid # MPV GTK front-end
 
         # Browsers
 
@@ -56,6 +87,7 @@ modules:
         - mangohud
         - gamemode
         - steam-devices
+        # - steam
         # - headsetcontrol
         - oversteer
 
@@ -67,7 +99,7 @@ modules:
         - xdg-utils
         - xdg-user-dirs
         - google-noto-emoji-fonts
-        - ddcutil # monitor settings
+        - ddcutil # change monitor settings
 
         # Ublue OS
         - ublue-os-udev-rules
@@ -77,10 +109,10 @@ modules:
         - ublue-os-just
         - ublue-recipes
 
-        
+
         # Interfaces for system components
         - NetworkManager-tui
-        - network-manager-applet # libgtk-3 nm-connection-editor
+        # - network-manager-applet # libgtk-3 nm-connection-editor
         # - manafirewall # Not working
         - firewall-config # GTK3 Py3
         # - firewall-applet
@@ -115,7 +147,7 @@ modules:
         # - waybar
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
-        - alacritty
+        # - alacritty
         - swaybg # background image
         - swayidle
         - swaylock
