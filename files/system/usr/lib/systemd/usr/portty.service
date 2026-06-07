@@ -1,0 +1,12 @@
+[Unit]
+Description=Portty - XDG Desktop Portal for TTY
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.tty
+ExecStart=/usr/lib/portty/porttyd
+Restart=on-failure
+RestartSec=5
+Slice=session.slice

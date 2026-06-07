@@ -59,6 +59,12 @@ modules:
         - greetd
         - greetd-selinux
 
+        # Custom shell
+        - quickshell
+        # - quickshell-git
+
+        - girara # UI toolkit
+        
         # Are the QT5 packages necessary?
         - qt5-qtwayland
         - qt6-qtwayland

@@ -5,11 +5,13 @@ modules:
         scope: system
 
         install:
-          - org.mozilla.firefox
+          # - org.mozilla.firefox
+          - app.zen_browser.zen
           # - io.github.kolunmi.Bazaar
           - com.github.tchx84.Flatseal
           - io.freetubeapp.FreeTube
           - net.lutris.Lutris
+          - org.freedesktop.Platform.VulkanLayer.gamescope
           - io.mpv.Mpv
           - org.pwmt.zathura
           # - com.valvesoftware.Steam
